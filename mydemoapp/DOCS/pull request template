@@ -1,0 +1,40 @@
+## 📝 Description
+<!-- Briefly describe what this PR does -->
+- What is the purpose of this PR?
+- What problem does it solve?
+
+## 🔧 Changes Made
+<!-- List the main changes -->
+- Added:
+- Updated:
+- Fixed:
+- Removed:
+
+## 📷 Screenshots (if applicable)
+<!-- Add screenshots or screen recordings if UI changes -->
+- Before:
+- After:
+
+## 🧪 How to Test
+<!-- Steps to test this PR -->
+1. Go to...
+2. Click on...
+3. Verify that...
+
+## ✅ Checklist
+<!-- Mark completed items with [x] -->
+- [ ] Code follows project guidelines
+- [ ] Self-reviewed my code
+- [ ] Tested locally
+- [ ] No new warnings/errors
+- [ ] Documentation updated (if needed)
+
+## 🔗 Related Issues
+<!-- Link related issues -->
+Closes #  
+Related to #
+
+## 🚀 Additional Notes
+<!-- Anything reviewers should know -->
+- Edge cases handled:
+- Known limitations:
