@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-           This is my feature branch code change. I am learning how to use git and github.
+           This is my feature branch code change. I am learning how to use git and github. Thank you.
         </p>
         <a
           className="App-link"
