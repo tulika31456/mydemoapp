@@ -3,9 +3,9 @@ import './App.css';
 import Imagecard from './components/Imagecard';
 import {userData} from'./constant/constant';
 function App() {
-  const [showFlag, setShowFlag]=useState(false);
-  const clickHandler = () =>{
-    showFlag? setShowFlag(false) : setShowFlag(true);
+  const [showFlag, setShowFlag]=useState(null);
+  const clickHandler = (Id) =>{
+    showFlag? setShowFlag(null) : setShowFlag(Id);
   };
 
   return (
@@ -17,8 +17,8 @@ function App() {
             name={user.name}
             imgLink={`https://avatars.githubusercontent.com/u/${user.githubId}`}
           />
-          <h3 style={{ cursor: 'pointer' }} onClick={clickHandler}>{user.isstudent ?"student":"mentor"}⬇️⬇️⬇️</h3>
-          {showFlag? <p>{user.bioDescription}</p> : null}
+          <h3 style={{ cursor: 'pointer' }} onClick={()=>clickHandler(user.githubId)}>{user.isstudent ?"student":"mentor"}⬇️⬇️⬇️</h3>
+          {showFlag===user.githubId &&(<p>{user.bioDescription}</p>)}
           </div>
         ))
       }
